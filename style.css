@@ -1,0 +1,41 @@
+@import url(./styles/header.css);
+@import url(./styles/banner.css);
+@import url(./styles/carrossel.css);
+@import url(./styles/Topicos.css);
+@import url(./styles/contato.css);
+
+html{
+    font-size: 62.5%;
+}
+:root{
+    --cor-branca: #FFFFFF;
+    --cor-de-fundo-geral: #EBECEE;
+    --cor-de-fundo-header: #FFFFFF;
+    --cor-de-fundo-nav: #FFFFFF;
+    --cor-de-fundo-menu-hamburger: #FFFFFF;
+    --cor-de-fundo-banner: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.57%);
+    --cor-de-fonte-banner: #FFFFFF;
+    --titulo-menu-hamburguer: #EB9B00;
+    --titulo-carrossel: #EB9B00;
+    --botoes-menu-hamburguer: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.57%);
+    --fonte-geral: "Poppins", serif;font-family: "Josefin Sans", sans-serif;
+    --fonte-secundaria: font-family: "Josefin Sans", sans-serif;
+    --tamanho-fonte-titulos-grande: 3.2em;
+    --tamanho-fonte-titulos-pequenos: 1.8em;
+    --tamanho-fonte-titulo-nav: 3.6em;
+    --tamanho-fonte-texto-footer: 1.4em;
+    --tamanho-fonte-texto-normal: 1.6em;
+    --tamanho-fonte-titulo-footer-main: 2.4em;
+}
+
+.poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}

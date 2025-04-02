@@ -1,0 +1,119 @@
+.contato{
+    background: white;
+    padding: 15px;
+    font-family: var(--fonte-geral);
+}
+
+.contato__titulo{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0px;
+    color: rgb(3, 3, 76);
+}
+
+.contato__texto{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(3, 3, 76);
+    margin-bottom: 20px;
+}
+
+.contato__email{
+    border-radius: 20px;
+    padding: 10px;
+    max-width: auto;
+    width: 90%;
+    border:  1px solid rgb(3, 3, 76);
+}
+
+.contato__email::placeholder{
+    font-family: var(--fonte-geral);
+    color: rgb(0, 0, 55);
+    background: url(/src/Email.svg) no-repeat;
+    padding-left: 30px;
+}
+
+.contato__linha{
+    width: 390px;
+    margin-left: -15px;
+    margin-top: 20px;
+}
+
+.rodape__titulo{
+    margin: 30px 30px 15px 0;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.rodape__coluna{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contato__email{
+        width: 40%;
+        height: 40%;
+        margin-left: 40px;
+        margin-bottom: -50px;
+    }
+    .contato__descricao{
+        width: 40%;
+    }
+    .contato__titulo, .contato__texto{
+        font-size: 24px;
+    }
+
+    .contato__linha{
+        min-width: 1030px;
+        max-width: auto;
+    }
+    .rodape__titulo{
+        font-size: 24px;
+        margin: 40px 20px 40px 20px;
+    }
+    .rodape{
+        display: flex;
+    }
+    .rodape__coluna{
+        display: block;
+        margin: 40px 50px 50px 50px;
+    }
+    .rodape__coluna-titulos, .rodape__itens{
+        font-family: var(--fonte-geral);
+    }
+    .rodape__coluna-titulos{
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: rgb(146, 145, 145);
+    }
+    .ajuste_simbolo-redondo{
+        margin-right: 6px;
+    }
+    .rodape__itens{
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 0;
+        font-size: 14px;
+        color: rgb(99, 99, 99);
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .contato{
+        padding: 3em 25vw;
+    }
+    .rodape{
+        padding: 3em 25vw;
+    }
+    .contato__linha{
+        min-width: 1876 px;
+        max-width: auto;
+    }
+}
